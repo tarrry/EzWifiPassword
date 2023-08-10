@@ -4,7 +4,7 @@ EzWifiPassword is a tool for getting wifi passwords that you have connected to.
 
 Imagine having a Python program at your fingertips that effortlessly reveals the WiFi password for the network you're currently connected to. This ingenious program harnesses the power of Python's subprocess module to interface with the Windows command-line utility 'netsh'. Upon execution, the program initiates a seamless interaction, extracting essential network information. It then gracefully deciphers the encrypted veil, presenting you with the hidden WiFi password like a magician unveiling their finest trick. This program is not only a remarkable display of scripting prowess but also a practical tool for those who've faced the plight of forgotten WiFi passwords.
 
-#FAQ:
+# FAQ:
 
 Q1: How does this Python program work?
 A1: This program utilizes the 'netsh' command-line utility available on Windows systems to access WiFi network profiles. By invoking 'netsh wlan show profiles' and then extracting and processing the profile information, the program retrieves and displays the WiFi passwords.
